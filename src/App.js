@@ -64,6 +64,7 @@
 
 import React, { useState, useEffect } from 'react';
 import './App.css';
+import { BrowserRouter } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import ScrollToTop from './components/ScrollToTop';
 import Home from './components/Home';
@@ -92,6 +93,7 @@ function App() {
   }, []);
 
   return (
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
     <div className="App">
       <Navbar />
       <Home />
@@ -102,6 +104,7 @@ function App() {
       <Footer />
       {showScrollToTop && <ScrollToTop />}
     </div>
+    </BrowserRouter>
   );
 }
 
