@@ -58,6 +58,14 @@ const Projects = () => {
       imageUrl: 'https://via.placeholder.com/300x200',
       projectUrl: 'https://github.com/Jay1161/frontend-cicd.git'
     },
+    {
+      title: 'Portfolio Website',
+      description:
+        'A project to explore Jenkins integration with the MERN stack and Docker, focusing on CI/CD automation and containerized deployment. This laid the groundwork for understanding seamless development and delivery workflows.',
+      tech: ['React', 'Tailwind css', 'Github Pages'],
+      imageUrl: 'https://via.placeholder.com/300x200',
+      projectUrl: 'https://github.com/Jay1161/portfolio-website.git'
+    },
   ];
 
   return (
