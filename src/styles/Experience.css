@@ -1,0 +1,90 @@
+/* .experience {
+    padding: 2rem;
+    text-align: center;
+}
+
+.experience h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.timeline::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 2px;
+    height: calc(100% - 4px);
+    /* Adjusts line to start and end at dots */
+    /*
+    background-color: #6a4fb3;
+    z-index: 0;
+}
+
+.timeline-item {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 1.5rem 0;
+    width: 100%;
+}
+
+.timeline-dot {
+    width: 12px;
+    height: 12px;
+    border: 2px solid #6a4fb3;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.timeline-dot:hover {
+    background-color: #6a4fb3;
+}
+
+.timeline-content {
+    background: white;
+    padding: 1rem;
+    width: 45%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-item:nth-child(odd) .timeline-content {
+    margin-right: auto;
+    text-align: right;
+}
+
+.timeline-item:nth-child(even) .timeline-content {
+    margin-left: auto;
+    text-align: left;
+}
+
+.timeline-content h3 {
+    margin: 0 0 0.5rem;
+    font-weight: 600;
+}
+
+.timeline-content h4 {
+    margin: 0 0 0.5rem;
+    color: #6a4fb3;
+}
+
+.timeline-content p {
+    margin: 0;
+    color: #666;
+} */
