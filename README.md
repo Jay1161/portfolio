@@ -8,12 +8,12 @@ This is a personal portfolio website built with React, showcasing skills, projec
 
 ## Screenshots
 
-### Dark Mode
+### Light Mode
 
 ![Portfolio Dark Mode](public/images/image-1.png)
 *Dark mode with space theme and animated solar system*
 
-### Light Mode
+### Dark Mode
 
 ![Portfolio Light Mode](public/images/image-2.png)
 *Light mode with clean, minimal design*
