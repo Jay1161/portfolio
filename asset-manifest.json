@@ -1,14 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.bd468bd5.css",
-    "main.js": "/portfolio/static/js/main.e5bc8a73.js",
+    "main.css": "/portfolio/static/css/main.eecf2f3f.css",
+    "main.js": "/portfolio/static/js/main.f8781438.js",
     "static/js/453.aac68abc.chunk.js": "/portfolio/static/js/453.aac68abc.chunk.js",
     "static/media/image-1.png": "/portfolio/static/media/image-1.5f91c3fbe96a11c747f9.png",
+    "static/media/portfolio.png": "/portfolio/static/media/portfolio.3c9ab83f2e9fb83b3512.png",
     "static/media/fa-solid-900.ttf": "/portfolio/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
     "static/media/kubernetes.png": "/portfolio/static/media/kubernetes.052eeea9ddfff9070dad.png",
+    "static/media/health-care.png": "/portfolio/static/media/health-care.b3cb52588d49294ab563.png",
+    "static/media/cart.png": "/portfolio/static/media/cart.15d574f9d9e7b6ed6dfe.png",
     "static/media/fa-brands-400.ttf": "/portfolio/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
     "static/media/fa-solid-900.woff2": "/portfolio/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
     "static/media/mysql.png": "/portfolio/static/media/mysql.c10b5bc47b47f99e1ff1.png",
+    "static/media/cicd.png": "/portfolio/static/media/cicd.4a4e586a4f367d140ef3.png",
     "static/media/fa-brands-400.woff2": "/portfolio/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
     "static/media/vscode.png": "/portfolio/static/media/vscode.a61dc62c499ed3aeefdc.png",
     "static/media/jenkins.png": "/portfolio/static/media/jenkins.43f8a942cbe27e2be537.png",
@@ -25,12 +29,12 @@
     "static/media/fa-v4compatibility.ttf": "/portfolio/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
     "static/media/fa-v4compatibility.woff2": "/portfolio/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/portfolio/index.html",
-    "main.bd468bd5.css.map": "/portfolio/static/css/main.bd468bd5.css.map",
-    "main.e5bc8a73.js.map": "/portfolio/static/js/main.e5bc8a73.js.map",
+    "main.eecf2f3f.css.map": "/portfolio/static/css/main.eecf2f3f.css.map",
+    "main.f8781438.js.map": "/portfolio/static/js/main.f8781438.js.map",
     "453.aac68abc.chunk.js.map": "/portfolio/static/js/453.aac68abc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd468bd5.css",
-    "static/js/main.e5bc8a73.js"
+    "static/css/main.eecf2f3f.css",
+    "static/js/main.f8781438.js"
   ]
 }
