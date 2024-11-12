@@ -73,6 +73,7 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import StarryBackground from './components/StarryBackground';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 
@@ -93,17 +94,36 @@ function App() {
   }, []);
 
   return (
+    // <BrowserRouter basename={process.env.PUBLIC_URL}>
+    // <div className="App">
+    //   <Navbar />
+    //   <Home />
+    //   <Experience />
+    //   <Skills />
+    //   <Projects />
+    //   <Contact />
+    //   <Footer />
+    //   {showScrollToTop && <ScrollToTop />}
+    // </div>
+    // </BrowserRouter>
     <BrowserRouter basename={process.env.PUBLIC_URL}>
-    <div className="App">
-      <Navbar />
-      <Home />
-      <Experience />
-      <Skills />
-      <Projects />
-      <Contact />
-      <Footer />
-      {showScrollToTop && <ScrollToTop />}
-    </div>
+      <div className="relative min-h-screen">
+        {/* StarryBackground will only show in dark mode */}
+        <div className="dark:block hidden">
+          <StarryBackground />
+        </div>
+        
+        <Navbar />
+        <main className="relative">
+          <Home />
+          <Experience />
+          <Skills />
+          <Projects />
+          <Contact />
+        </main>
+        <Footer />
+        {showScrollToTop && <ScrollToTop />}
+      </div>
     </BrowserRouter>
   );
 }

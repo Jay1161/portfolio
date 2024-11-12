@@ -1,6 +1,5 @@
 import React from 'react';
 import { ChevronUp } from 'lucide-react';
-// import "../styles/ScrollToTop.css";
 
 function ScrollToTop() {
   const scrollToTop = () => {
