@@ -41,23 +41,57 @@ $pluto-pl: 3px;
 $asteroids-belt-orb: 300px;
 $asteroids-belt-pl: 210px;
 
-// .solar-system-container {
-//     position: absolute;
-//     top: -150px;
-//     right: -500px;
-//     width: 800px;
-//     height: 800px;
-//     transform: scale(1);
-//     z-index: 1;
-// }
 .solar-system-container {
-    position: relative; // Changed from absolute
-    width: 600px; // Adjusted width
-    height: 300px; // Adjusted height
-    transform: scale(1); // Scaled down to fit at the top
-    z-index: 1;
-    margin-top: 20px; // Add some spacing from the top
+    // position: absolute;
+    // top: -150px;
+    // right: -500px;
+    // width: 800px;
+    // height: 800px;
+    // transform: scale(1);
+    // z-index: 1;
+
+    position: absolute;
+        top: -150px;
+        right: -500px;
+        width: 800px;
+        height: 800px;
+        transform: scale(1);
+        z-index: 1;
+    
+        @media (max-width: 768px) {
+            top: -100px;
+            right: -200px;
+            width: 500px;
+            height: 500px;
+            transform: scale(0.8);
+        }
+    
+        @media (max-width: 480px) {
+            top: -50px;
+            right: -100px;
+            width: 350px;
+            height: 350px;
+            transform: scale(0.6);
+        }
+    
+        @media (max-width: 320px) {
+            top: -30px;
+            right: -50px;
+            width: 250px;
+            height: 250px;
+            transform: scale(0.5);
+        }
 }
+
+
+// .solar-system-container {
+//     position: relative; // Changed from absolute
+//     width: 600px; // Adjusted width
+//     height: 300px; // Adjusted height
+//     transform: scale(1); // Scaled down to fit at the top
+//     z-index: 1;
+//     margin-top: 20px; // Add some spacing from the top
+// }
 
 .solar-syst {
     &:after {

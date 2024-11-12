@@ -56,7 +56,8 @@ function Home() {
         </div>
 
         {/* Solar System */}
-        <div className="absolute top-0 left-1/2 transform -translate-x-1/2 dark:block hidden">
+        <div
+          className="absolute top-0 left-1/2 transform -translate-x-1/2 dark:block hidden">
           <SolarSystem />
         </div>
 
