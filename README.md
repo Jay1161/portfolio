@@ -1,3 +1,23 @@
+# Portfolio Website
+
+This is a personal portfolio website built with React, showcasing skills, projects, and professional experience.
+
+## Live Demo
+
+🌐 Check out the live website: [Jay's Portfolio](https://jay1161.github.io/portfolio/)
+
+## Screenshots
+
+### Dark Mode
+
+![Portfolio Dark Mode](public/images/image-1.png)
+*Dark mode with space theme and animated solar system*
+
+### Light Mode
+
+![Portfolio Light Mode](public/images/image-1.png)
+*Light mode with clean, minimal design*
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
