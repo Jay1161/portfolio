@@ -15,7 +15,7 @@ This is a personal portfolio website built with React, showcasing skills, projec
 
 ### Light Mode
 
-![Portfolio Light Mode](public/images/image-1.png)
+![Portfolio Light Mode](public/images/image-2.png)
 *Light mode with clean, minimal design*
 
 # Getting Started with Create React App
