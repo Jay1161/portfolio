@@ -1,20 +1,14 @@
 import React from "react";
 import { ReactTyped } from "react-typed";
 import {
-  Linkedin,
-  Github,
-  Twitter,
-  Mail,
   Download,
   Eye,
 } from "lucide-react";
+import { FaLinkedinIn, FaGithub, FaEnvelope,} from "react-icons/fa";
 import photo from "../assets/images/personal/image-1.png";
 import SolarSystem from "./SolarSystem";
 import StarryBackground from "./StarryBackground";
-import ScrollAnimationWrapper, {
-  staggerChildrenVariants,
-  childVariants,
-} from "./ScrollAnimationWrapper";
+import ScrollAnimationWrapper from "./ScrollAnimationWrapper";
 
 
 function Home() {
@@ -23,6 +17,13 @@ function Home() {
     "DevOps Enthusiast",
     "Mobile App Developer",
   ];
+  
+  // Custom X.com icon component
+  const XIcon = ({ size = 24 }) => (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor">
+      <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+    </svg>
+  );
 
   const resumePath = process.env.PUBLIC_URL + "/documents/resume.pdf";
 
@@ -56,8 +57,7 @@ function Home() {
         </div>
 
         {/* Solar System */}
-        <div
-          className="absolute top-0 left-1/2 transform -translate-x-1/2 dark:block hidden">
+        <div className="absolute top-0 left-1/2 transform -translate-x-1/2 dark:block hidden">
           <SolarSystem />
         </div>
 
@@ -96,12 +96,12 @@ function Home() {
             <div className="flex gap-4 mb-8">
               {[
                 {
-                  icon: Linkedin,
+                  icon: FaLinkedinIn,
                   href: "https://www.linkedin.com/in/jay-vaja-b84237229/",
                 },
-                { icon: Github, href: "https://github.com/Jay1161" },
-                { icon: Twitter, href: "https://x.com/jayvaja_11" },
-                { icon: Mail, href: "mailto:jayvaja56@gmail.com" },
+                { icon: FaGithub, href: "https://github.com/Jay1161" },
+                { icon: XIcon, href: "https://x.com/jayvaja_11" },
+                { icon: FaEnvelope, href: "mailto:jayvaja56@gmail.com" },
               ].map((social, index) => (
                 <a
                   key={index}

@@ -3,10 +3,7 @@ import portfolio from '../assets/images/projects/portfolio.png';
 import cicd from '../assets/images/projects/cicd.png';
 import healthCare from '../assets/images/projects/health-care.png';
 import cart from '../assets/images/projects/cart.png';
-import ScrollAnimationWrapper, {
-  staggerChildrenVariants,
-  childVariants,
-} from "./ScrollAnimationWrapper";
+import ScrollAnimationWrapper from "./ScrollAnimationWrapper";
 
 const ProjectCard = ({ title, description, tech, imageUrl, projectUrl }) => {
   return (

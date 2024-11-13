@@ -1,9 +1,6 @@
 import React, { useState } from "react";
 import { Code2, Smartphone, Shield, MapPin } from "lucide-react";
-import ScrollAnimationWrapper, {
-  staggerChildrenVariants,
-  childVariants,
-} from "./ScrollAnimationWrapper";
+import ScrollAnimationWrapper from "./ScrollAnimationWrapper";
 import amnex from "../assets/company/amnex.jpeg";
 import navpad from "../assets/company/navpad.jpg";
 import prodigy from "../assets/company/prodigy.jpeg";
@@ -62,14 +59,14 @@ const Experience = () => {
   return (
     <section
       id="experience"
-      className="bg-gradient-to-b from-yellow-50 to-orange-50 dark:from-gray-900 dark:to-gray-800 p-4 md:p-8 text-center scroll-mt-16 pt-16 font-poppins"
+      className="bg-gradient-to-b from-yellow-50 to-orange-50 dark:from-gray-900 dark:to-gray-800 py-20 scroll-mt-16 font-poppins"
     >
       <ScrollAnimationWrapper>
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 md:mb-8 text-gray-800 dark:text-white">
+          <h2 className="text-3xl md:text-4xl text-center font-bold mb-4 md:mb-8 text-gray-800 dark:text-white">
             My Professional Experience
           </h2>
-          <p className="mb-8 md:mb-12 text-gray-600 dark:text-gray-300 text-base md:text-lg px-4">
+          <p className="mb-8 md:mb-12 text-center text-gray-600 dark:text-gray-300 text-base md:text-lg px-4">
             Collaborated with top tech companies, driving the development of
             scalable, innovative applications.
           </p>

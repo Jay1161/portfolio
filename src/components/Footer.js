@@ -1,25 +1,34 @@
 import React from 'react';
-import { Linkedin, Github, Twitter, Heart, Mail } from 'lucide-react';
+import { Heart } from 'lucide-react';
+import { FaLinkedinIn, FaGithub, FaEnvelope } from "react-icons/fa";
+
+
+// Custom X.com icon component
+  const XIcon = ({ size = 24 }) => (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor">
+      <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+    </svg>
+  );
 
 const Footer = () => {
   const socialLinks = [
     {
-      icon: <Linkedin size={24} />,
+      icon: <FaLinkedinIn size={24} />,
       url: "https://www.linkedin.com/in/jay-vaja-b84237229/",
       label: "LinkedIn",
     },
     {
-      icon: <Github size={24} />,
+      icon: <FaGithub size={24} />,
       url: "https://github.com/Jay1161",
       label: "GitHub",
     },
     {
-      icon: <Twitter size={24} />,
+      icon: <XIcon size={24} />,
       url: "https://x.com/jayvaja_11",
       label: "Twitter",
     },
     {
-      icon: <Mail size={24} />,
+      icon: <FaEnvelope size={24} />,
       url: "mailto:jayvaja56@gmail.com",
       label: "Mail",
     },

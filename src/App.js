@@ -75,6 +75,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import StarryBackground from './components/StarryBackground';
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import Services from './components/Service';
 
 
 function App() {
@@ -112,13 +113,14 @@ function App() {
         <div className="dark:block hidden">
           <StarryBackground />
         </div>
-        
+
         <Navbar />
         <main className="relative">
           <Home />
           <Experience />
           <Skills />
           <Projects />
+          <Services />
           <Contact />
         </main>
         <Footer />
