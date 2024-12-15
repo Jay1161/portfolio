@@ -35,10 +35,13 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-gradient-to-b from-yellow-50 to-orange-50 dark:from-gray-900 dark:to-gray-800 border-t border-gray-200 dark:border-gray-700 font-poppins">
+    <footer className="bg-gradient-to-b from-orange-50 to-yellow-50 dark:from-gray-900 dark:to-gray-800 border-t border-gray-200 dark:border-gray-700 font-poppins">
       <div className="max-w-7xl mx-auto px-4 py-8">
         <div className="flex flex-col items-center gap-4">
 
+          <div className="flex items-center gap-6">
+            {socialLinks.map((link) => (
+              <a
           <div className="flex items-center gap-2 mt-2 ">
             <span className="text-gray-600 dark:text-gray-300 font-medium">Made by</span>
             <span className="text-orange-500 dark:text-blue-400 font-bold ">Jay Vaja</span>
@@ -49,10 +52,6 @@ const Footer = () => {
               />
             </span>
           </div>
-
-          <div className="flex items-center gap-6">
-            {socialLinks.map((link) => (
-              <a
                 key={link.label}
                 href={link.url}
                 target="_blank"
@@ -64,6 +63,7 @@ const Footer = () => {
               </a>
             ))}
           </div>
+          
 
           <p className="text-gray-800 dark:text-gray-200 font-medium">
             © {new Date().getFullYear()} Jay Vaja. All Rights Reserved.

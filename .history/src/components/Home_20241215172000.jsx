@@ -127,8 +127,7 @@ function Home() {
                   href={social.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  //className="text-black dark:text-white hover:text-opacity-80 transition-colors"
-                  className="text-orange-500 dark:text-blue-400 hover:text-opacity-80 transition-colors"
+                  className="text-black dark:text-white hover:text-opacity-80 transition-colors"
                 >
                   <social.icon size={24} />
                 </a>

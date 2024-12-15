@@ -44,8 +44,8 @@ function Home() {
   return (
     <section
       id="home"
-      className="relative flex justify-center items-center min-h-screen pt-20 bg-gradient-to-b from-yellow-50 to-orange-50 dark:from-gray-900 dark:to-gray-800 font-poppins transition-colors duration-300"
-      //className="relative flex justify-center items-center min-h-screen pt-20 bg-white dark:bg-slate-900 text-black dark:text-white font-poppins transition-colors duration-300"
+      //className="relative flex justify-center items-center min-h-screen pt-20 bg-gradient-to-b from-yellow-50 to-orange-50 dark:from-gray-900 dark:to-gray-800 font-poppins transition-colors duration-300"
+      className="relative flex justify-center items-center min-h-screen pt-20 bg-white dark:bg-slate-900 text-black dark:text-white font-poppins transition-colors duration-300"
     >
       <ScrollAnimationWrapper>
         {/* Stars background */}
@@ -127,8 +127,7 @@ function Home() {
                   href={social.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  //className="text-black dark:text-white hover:text-opacity-80 transition-colors"
-                  className="text-orange-500 dark:text-blue-400 hover:text-opacity-80 transition-colors"
+                  className="text-black dark:text-white hover:text-opacity-80 transition-colors"
                 >
                   <social.icon size={24} />
                 </a>
@@ -139,8 +138,7 @@ function Home() {
             <div className="mt-12">
               <a
                 href="#experience"
-                //className="inline-flex items-center gap-3 text-black dark:text-white hover:opacity-80 transition-all group"
-                className="inline-flex items-center gap-3 text-orange-500 dark:text-blue-400 hover:opacity-80 transition-all group"
+                className="inline-flex items-center gap-3 text-black dark:text-white hover:opacity-80 transition-all group"
               >
                 <svg
                   className="w-8 h-8"

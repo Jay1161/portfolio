@@ -1,11 +1,15 @@
-import ScrollAnimationWrapper from "./ScrollAnimationWrapper";
+import React from "react";
+import { ReactTyped } from "react-typed";
+import {
+  Download,
+  Eye,
+} from "lucide-react";
+import { FaLinkedinIn, FaGithub, FaEnvelope,} from "react-icons/fa";
 //import photo from "../assets/images/personal/image-1.png";
 //import SolarSystem from "./SolarSystem";
 import StarryBackground from "./StarryBackground";
-import { Download, Eye } from "lucide-react";
-import React from "react";
-import { FaLinkedinIn, FaGithub, FaEnvelope } from "react-icons/fa";
-import { ReactTyped } from "react-typed";
+import ScrollAnimationWrapper from "./ScrollAnimationWrapper";
+
 
 function Home() {
   const typedStrings = [
@@ -13,7 +17,7 @@ function Home() {
     "DevOps Enthusiast",
     "Mobile App Developer",
   ];
-
+  
   // Custom X.com icon component
   const XIcon = ({ size = 24 }) => (
     <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor">
@@ -44,8 +48,7 @@ function Home() {
   return (
     <section
       id="home"
-      className="relative flex justify-center items-center min-h-screen pt-20 bg-gradient-to-b from-yellow-50 to-orange-50 dark:from-gray-900 dark:to-gray-800 font-poppins transition-colors duration-300"
-      //className="relative flex justify-center items-center min-h-screen pt-20 bg-white dark:bg-slate-900 text-black dark:text-white font-poppins transition-colors duration-300"
+      className="relative flex justify-center items-center min-h-screen pt-20 bg-gradient-to-b from-white-50 to-white-100 dark:from-gray-900 dark:from-gray-900 dark:to-gray-900 font-poppins transition-colors duration-300"
     >
       <ScrollAnimationWrapper>
         {/* Stars background */}
@@ -82,28 +85,6 @@ function Home() {
               communities and creating seamless, user-focused digital
               experiences.
             </p>
-            {/* <h1 className="text-5xl font-bold mb-4 leading-tight">
-              Hi!, I'm Jay Vaja
-            </h1>
-            <h2 className="text-2xl mb-6">
-              I'm a{" "}
-              <span className="text-black dark:text-white font-bold">
-                <ReactTyped
-                  strings={typedStrings}
-                  typeSpeed={70}
-                  backDelay={1000}
-                  backSpeed={70}
-                  loop
-                />
-              </span>
-            </h2>
-            <p className="text-gray-600 dark:text-gray-400 text-lg leading-relaxed mb-8">
-              A driven technology enthusiast with a keen eye for innovation. I
-              am actively developing impactful projects and exploring
-              cutting-edge technologies. I find joy in contributing to
-              communities and creating seamless, user-focused digital
-              experiences.
-            </p> */}
 
             {/* <p className="text-gray-600 text-lg leading-relaxed mb-8 text-justify">
              A tech enthusiast. I'm currently working on exciting projects and
@@ -127,7 +108,6 @@ function Home() {
                   href={social.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  //className="text-black dark:text-white hover:text-opacity-80 transition-colors"
                   className="text-orange-500 dark:text-blue-400 hover:text-opacity-80 transition-colors"
                 >
                   <social.icon size={24} />
@@ -139,7 +119,6 @@ function Home() {
             <div className="mt-12">
               <a
                 href="#experience"
-                //className="inline-flex items-center gap-3 text-black dark:text-white hover:opacity-80 transition-all group"
                 className="inline-flex items-center gap-3 text-orange-500 dark:text-blue-400 hover:opacity-80 transition-all group"
               >
                 <svg
@@ -160,7 +139,7 @@ function Home() {
                   <circle
                     className="animate-bounce"
                     cx="12"
-                    cy="10"
+                    cy="7"
                     r="2"
                     fill="currentColor"
                   />
@@ -191,21 +170,6 @@ function Home() {
                 <span>Download</span>
                 <Download className="w-5 h-5 transition-transform group-hover:scale-110" />
               </button>
-              {/* <button
-                onClick={handleView}
-                className="bg-black dark:bg-white text-white dark:text-black px-6 py-3 rounded-lg border border-black dark:border-white hover:opacity-90 transition-colors inline-flex items-center gap-2 group"
-              >
-                <span>View Resume</span>
-                <Eye className="w-5 h-5 transition-transform group-hover:scale-110" />
-              </button>
-
-              <button
-                onClick={handleDownload}
-                className="bg-white dark:bg-black text-black dark:text-white px-6 py-3 rounded-lg border border-black dark:border-white hover:opacity-90 transition-colors inline-flex items-center gap-2 group"
-              >
-                <span>Download</span>
-                <Download className="w-5 h-5 transition-transform group-hover:scale-110" />
-              </button> */}
             </div>
           </div>
 

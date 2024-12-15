@@ -127,8 +127,7 @@ function Home() {
                   href={social.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  //className="text-black dark:text-white hover:text-opacity-80 transition-colors"
-                  className="text-orange-500 dark:text-blue-400 hover:text-opacity-80 transition-colors"
+                  className="text-black dark:text-white hover:text-opacity-80 transition-colors"
                 >
                   <social.icon size={24} />
                 </a>
@@ -139,7 +138,7 @@ function Home() {
             <div className="mt-12">
               <a
                 href="#experience"
-                //className="inline-flex items-center gap-3 text-black dark:text-white hover:opacity-80 transition-all group"
+                className="inline-flex items-center gap-3 text-black dark:text-white hover:opacity-80 transition-all group"
                 className="inline-flex items-center gap-3 text-orange-500 dark:text-blue-400 hover:opacity-80 transition-all group"
               >
                 <svg
