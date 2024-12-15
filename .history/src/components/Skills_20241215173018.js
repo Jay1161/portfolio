@@ -1,21 +1,22 @@
-import androidStudioIcon from "../assets/icons/android-studio.png";
-import awsIcon from "../assets/icons/aws.png";
-import dartIcon from "../assets/icons/dart.png";
-import dockerIcon from "../assets/icons/docker.png";
-import firebaseIcon from "../assets/icons/firebase.png";
+import React from "react";
+import { motion } from "framer-motion";
+import ScrollAnimationWrapper from "./ScrollAnimationWrapper";
+
 // Import icons
 import flutterIcon from "../assets/icons/flutter.png";
-import githubIcon from "../assets/icons/github.png";
 import javaIcon from "../assets/icons/java.png";
-import jenkinsIcon from "../assets/icons/jenkins.png";
-import kubernetesIcon from "../assets/icons/kubernetes.png";
-import linuxIcon from "../assets/icons/linux.png";
-import mysqlIcon from "../assets/icons/mysql.png";
-import reactIcon from "../assets/icons/react.png";
+import dartIcon from "../assets/icons/dart.png";
+import androidStudioIcon from "../assets/icons/android-studio.png";
 import vscodeIcon from "../assets/icons/vscode.png";
-import ScrollAnimationWrapper from "./ScrollAnimationWrapper";
-import { motion } from "framer-motion";
-import React from "react";
+import awsIcon from "../assets/icons/aws.png";
+import dockerIcon from "../assets/icons/docker.png";
+import kubernetesIcon from "../assets/icons/kubernetes.png";
+import jenkinsIcon from "../assets/icons/jenkins.png";
+import mysqlIcon from "../assets/icons/mysql.png";
+import linuxIcon from "../assets/icons/linux.png";
+import firebaseIcon from "../assets/icons/firebase.png";
+import githubIcon from "../assets/icons/github.png";
+import reactIcon from "../assets/icons/react.png";
 
 const SkillCard = ({ icon, name }) => {
   return (
@@ -89,24 +90,6 @@ const Skills = () => {
               </motion.div>
             ))}
           </div> */}
-          {/* Mobile Layout */}
-          <div className="grid grid-cols-2 gap-4 lg:hidden">
-            {skills.map((skill, index) => (
-              <motion.div
-                key={index}
-                className="flex justify-center"
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{
-                  type: "spring",
-                  duration: 0.6,
-                  delay: index * 0.1,
-                }}
-              >
-                <SkillCard icon={skill.icon} name={skill.name} />
-              </motion.div>
-            ))}
-          </div>
 
           {/* Desktop Layout with Offset Rows */}
           <div className="hidden lg:flex lg:flex-col items-center gap-6">
