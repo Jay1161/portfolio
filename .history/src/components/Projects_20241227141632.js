@@ -76,7 +76,7 @@ const Projects = () => {
     {
       title: "Portfolio-Website",
       description:
-        "A personal portfolio website built with React and Tailwind CSS. It showcases my projects, skills, and experience in a visually appealing and interactive manner.",
+        "",
       tech: ["Javascript", "React", "Tailwind css", "Github Pages"],
       imageUrl: portfolio,
       projectUrl: "https://github.com/Jay1161/portfolio-website.git",
