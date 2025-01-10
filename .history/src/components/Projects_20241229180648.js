@@ -49,7 +49,7 @@ const ProjectCard = ({ title, description, tech, imageUrl, projectUrl }) => {
 const Projects = () => {
   const projects = [
     {
-      title: "CareWise",
+      title: "",
       description:
         "A health appointment booking app built with modern mobile frameworks and Firebase. It allows users to schedule appointments seamlessly with a responsive design and real-time data storage.",
       tech: ["Java", "Firebase", "Android Studio", "Material UI"],
@@ -58,7 +58,7 @@ const Projects = () => {
         "https://github.com/Jay1161/Health-Care-for-Senior-Citizen.git",
     },
     {
-      title: "FarmCart",
+      title: "Farmer E-Commerce",
       description:
         "A farmer-focused e-commerce app developed using modern mobile frameworks and Firebase. It connects farmers with buyers, supports a user-friendly interface, and ensures smooth transactions with real-time data management.",
       tech: ["Dart", "Flutter", "Firebase", "Material UI"],

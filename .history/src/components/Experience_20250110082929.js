@@ -36,7 +36,7 @@ const Experience = () => {
       location: "Ahmedabad, Gujarat",
       date: "January 2025 - Present",
       description:
-        "Developed a high-performance mobile app using Flutter, Firebase, and Material UI, elevating user experience and refining app efficiency with modern development practices.",
+        "Developed a high-performance mobile app using Flutter, Firebase, and Material UI, enhancing user experience and refining app efficiency with modern development practices.",
       icon: Smartphone,
       logoUrl: ekaantik,
       website: "https://ekaantik.com",

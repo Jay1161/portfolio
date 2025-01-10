@@ -58,7 +58,7 @@ const Projects = () => {
         "https://github.com/Jay1161/Health-Care-for-Senior-Citizen.git",
     },
     {
-      title: "FarmCart",
+      title: "Farmer E-Commerce",
       description:
         "A farmer-focused e-commerce app developed using modern mobile frameworks and Firebase. It connects farmers with buyers, supports a user-friendly interface, and ensures smooth transactions with real-time data management.",
       tech: ["Dart", "Flutter", "Firebase", "Material UI"],

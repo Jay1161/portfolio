@@ -49,7 +49,7 @@ module.exports = {
       },
 
       fontFamily: {
-        poppins: ["Rubik", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
       },
 
       transitionDuration: {

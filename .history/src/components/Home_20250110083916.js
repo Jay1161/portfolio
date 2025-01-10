@@ -7,6 +7,7 @@ import React from "react";
 import { FaLinkedinIn, FaGithub, FaEnvelope } from "react-icons/fa";
 import { ReactTyped } from "react-typed";
 
+
 function Home() {
   const typedStrings = [
     "Software Developer",
@@ -21,10 +22,8 @@ function Home() {
     </svg>
   );
 
-  //const resumePath = process.env.PUBLIC_URL + "/documents/resume.pdf";
-
   const resumePath = "https://drive.google.com/file/d/1Wg53elmH95uLCRuJ3m0dQ6nfSKikOhOi/view?usp=sharing";
-
+  
   const handleDownload = () => {
     // Create a temporary link with the correct path
     const link = document.createElement("a");

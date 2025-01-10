@@ -21,10 +21,7 @@ function Home() {
     </svg>
   );
 
-  //const resumePath = process.env.PUBLIC_URL + "/documents/resume.pdf";
-
-  const resumePath = "https://drive.google.com/file/d/1Wg53elmH95uLCRuJ3m0dQ6nfSKikOhOi/view?usp=sharing";
-
+  const resumePath = "";
   const handleDownload = () => {
     // Create a temporary link with the correct path
     const link = document.createElement("a");

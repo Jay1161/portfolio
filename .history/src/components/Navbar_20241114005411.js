@@ -29,7 +29,7 @@ function Navbar() {
           <div className="text-xl font-bold text-gray-800 dark:text-white flex items-center">
             <a href="#" onClick={handleLogoClick} className="relative group">
               <span className="text-[#ff6b6b]">{'</>'}</span> 
-              Jay Vaja
+              Jay's Portfolio
               <span className="absolute bottom-0 left-0 w-0 h-1 bg-[#ff6b6b] transition-all duration-300"></span>
             </a>
           </div>

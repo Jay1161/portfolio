@@ -1,8 +1,8 @@
 import amnex from "../assets/company/amnex.jpeg";
-import ekaantik from "../assets/company/ekaantik.jpeg";
 import navpad from "../assets/company/navpad.jpg";
+import prodigy from "../assets/company/prodigy.jpeg";
 import ScrollAnimationWrapper from "./ScrollAnimationWrapper";
-import { Code2, Smartphone, MapPin } from "lucide-react";
+import { Code2, Smartphone, Shield, MapPin } from "lucide-react";
 import React, { useState } from "react";
 
 
@@ -31,16 +31,27 @@ const Experience = () => {
       website: "https://www.amnex.com",
     },
     {
-      title: "Mobile App Developer Intern",
-      company: "Ekaantik Software Solutions",
-      location: "Ahmedabad, Gujarat",
-      date: "January 2025 - Present",
+      title: "Cyber Security Intern",
+      company: "Prodigy Infotech",
+      location: "Mumbai, Maharashtra",
+      date: "May 2024 - June 2024",
       description:
-        "Developed a high-performance mobile app using Flutter, Firebase, and Material UI, elevating user experience and refining app efficiency with modern development practices.",
-      icon: Smartphone,
-      logoUrl: ekaantik,
-      website: "https://ekaantik.com",
+        "Developing Buisness card applications",
+      icon: Shield,
+      logoUrl: prodigy,
+      website: "https://prodigyinfotech.dev",
     },
+    // {
+    //   title: "Mobile App Developer Intern",
+    //   company: "Ekaantik Software Solutions",
+    //   location: "Ahmedabad, Gujarat",
+    //   date: "January 2025 - Present",
+    //   description:
+    //     "Developed innovative security tools and gained strong foundational expertise in cybersecurity practices, enhancing technical proficiency and problem-solving skills.",
+    //   icon: mobile,
+    //   logoUrl: ekaantik,
+    //   website: "https://ekaantik.com",
+    // },
   ];
 
   const [expandedIds, setExpandedIds] = useState(new Set());

@@ -1,8 +1,8 @@
 import amnex from "../assets/company/amnex.jpeg";
-import ekaantik from "../assets/company/ekaantik.jpeg";
 import navpad from "../assets/company/navpad.jpg";
+im
 import ScrollAnimationWrapper from "./ScrollAnimationWrapper";
-import { Code2, Smartphone, MapPin } from "lucide-react";
+import { Code2, Smartphone, MapPin, mobile } from "lucide-react";
 import React, { useState } from "react";
 
 
@@ -36,8 +36,8 @@ const Experience = () => {
       location: "Ahmedabad, Gujarat",
       date: "January 2025 - Present",
       description:
-        "Developed a high-performance mobile app using Flutter, Firebase, and Material UI, elevating user experience and refining app efficiency with modern development practices.",
-      icon: Smartphone,
+        "Developed a high-performance mobile app using React Native, Firebase, and Material UI, enhancing user experience and refining app efficiency with modern development practices.",
+      icon: mobile,
       logoUrl: ekaantik,
       website: "https://ekaantik.com",
     },
