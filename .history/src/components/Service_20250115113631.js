@@ -1,5 +1,5 @@
 import React from "react";
-import { Code2, Database, Cloud, Smartphone, Infinity } from "lucide-react";
+import { Code2, Database, Shield, Cloud, Smartphone, Infinity } from "lucide-react";
 import ScrollAnimationWrapper from "./ScrollAnimationWrapper";
 
 const Services = () => {

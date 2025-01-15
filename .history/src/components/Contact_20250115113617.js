@@ -1,6 +1,7 @@
-import React, { useState } from "react";
 import ScrollAnimationWrapper from "./ScrollAnimationWrapper";
 import { User, Mail, Text, Check } from "lucide-react";
+import React, { useState } from "react";
+
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -27,14 +28,14 @@ const ContactForm = () => {
         body: JSON.stringify(formData),
       }
     )
-    .then((response) => response.text())
-    .then((data) => {
-      setShowMessageSent(true);
-      setFormData({ name: "", email: "", message: "" });
-    })
-    .catch((error) => {
-      console.error("Error:", error);
-    });
+      .then((response) => response.text())
+      .then((data) => {
+        setShowMessageSent(true);
+        setFormData({ name: "", email: "", message: "" });
+      })
+      .catch((error) => {
+        console.error("Error:", error);
+      });
   };
 
   return (
@@ -43,18 +44,22 @@ const ContactForm = () => {
       className="bg-gradient-to-b from-yellow-50 to-orange-50 dark:from-gray-900 dark:to-gray-800 py-20 px-4 scroll-mt-16 font-poppins"
     >
       <ScrollAnimationWrapper>
-        <div className="max-w-3xl mx-auto w-full">
-          <h2 className="text-4xl font-bold text-center mb-4 text-gray-800 dark:text-white">
-            Get in Touch
-          </h2>
-          <p className="text-center text-gray-600 dark:text-gray-300 mb-12 max-w-2xl mx-auto">
-            I'd love to hear from you! Whether you have a project, a question, or
-            just want to say hello, let's start a conversation and bring your
-            ideas to life.
-          </p>
+        <div className="max-w-5xl mx-auto w-full flex flex-col md:flex-row md:items-start md:space-x-12">
+          {/* Left Section */}
+          <div className="flex-1">
+            <h2 className="text-4xl font-bold mb-4 text-gray-800 dark:text-white">
+              Get in Touch
+            </h2>
+            <p className="text-gray-600 dark:text-gray-300 mb-12 max-w-xl">
+              I'd love to hear from you! Whether you have a project, a question,
+              or just want to say hello, let's start a conversation and bring
+              your ideas to life.
+            </p>
+          </div>
+          {/* Right Section */}
           <form
             onSubmit={handleSubmit}
-            className="flex flex-col items-center space-y-4 w-full"
+            className="flex-1 flex flex-col items-center space-y-4 w-full"
           >
             <div className="w-full max-w-md relative">
               <User className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-600 dark:text-gray-400" />
