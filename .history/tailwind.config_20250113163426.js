@@ -95,6 +95,30 @@ module.exports = {
             transform: "translateY(0)",
           },
         },
+        twinkle: {
+          "5%, 20%": {
+            opacity: "0",
+            transform: "scale(0) rotate(90deg)",
+          },
+          "25%, 100%": {
+            opacity: "1",
+            transform: "scale(1) rotate(180deg)",
+          },
+        },
+        twinkle2: {
+          "0%, 60%": {
+            opacity: "1",
+            transform: "scale(1) rotate(0deg)",
+          },
+          "65%, 70%": {
+            opacity: "0",
+            transform: "scale(0) rotate(90deg)",
+          },
+          "75%, 100%": {
+            opacity: "1",
+            transform: "scale(1) rotate(180deg)",
+          },
+        },
       },
     },
   },
