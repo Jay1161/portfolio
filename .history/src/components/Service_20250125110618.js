@@ -44,16 +44,15 @@ const Services = () => {
   return (
     <section
       id="services"
-      className="bg-gradient-to-b from-yellow-50 to-orange-50 dark:from-gray-900 dark:to-gray-800 py-20 scroll-mt-16 font-poppins"
+      className="bg-gradient-to-b from-yellow-50 to-orange-50 dark:from-gray-900 dark:to-gray-800 py-20 scroll-mt-16 font-rubik"
     >
       <ScrollAnimationWrapper>
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 md:mb-8 text-gray-800 dark:text-white">
-            My Expert Services
+             My Expert Services
           </h2>
           <p className="mb-8 md:mb-12 text-center text-gray-600 dark:text-gray-300 text-base md:text-lg px-4">
-            Crafting innovative, high-quality software solutions that elevate
-            user experiences and drive results.
+            Crafting innovative, high-quality software solutions that elevate user experiences and drive results.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 px-4 text-center">

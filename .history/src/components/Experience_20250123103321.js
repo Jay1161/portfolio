@@ -41,7 +41,17 @@ const Experience = () => {
       logoUrl: iTech,
       website: "https://www.itechops.com",
     },
-
+    // {
+    //   title: "Mobile App Developer Intern",
+    //   company: "Ekaantik Software Solutions",
+    //   location: "Ahmedabad, Gujarat",
+    //   date: "January 2025 - Present",
+    //   description:
+    //     "Developed a high-performance mobile app using Flutter, Firebase, and Material UI, elevating user experience and refining app efficiency with modern development practices.",
+    //   icon: Smartphone,
+    //   logoUrl: ekaantik,
+    //   website: "https://ekaantik.com",
+    // },
   ];
 
   const [expandedIds, setExpandedIds] = useState(new Set());

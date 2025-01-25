@@ -1,5 +1,5 @@
 import ScrollAnimationWrapper from "./ScrollAnimationWrapper";
-import StarryBackground from "./StarryBackground";
+//import StarryBackground from "./StarryBackground";
 import { Download, Eye } from "lucide-react";
 import React from "react";
 import { FaLinkedinIn, FaGithub, FaEnvelope } from "react-icons/fa";
@@ -47,7 +47,7 @@ function Home() {
       className="relative flex justify-center items-center min-h-screen pt-20 bg-gradient-to-b from-yellow-50 to-orange-50 dark:from-gray-900 dark:to-gray-800 font-poppins transition-colors duration-300"
     >
       <ScrollAnimationWrapper>
-        {/* Stars background */}
+        Stars background
         <div className="dark:block hidden">
           <StarryBackground />
         </div>

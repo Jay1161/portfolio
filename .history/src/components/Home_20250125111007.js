@@ -1,5 +1,5 @@
 import ScrollAnimationWrapper from "./ScrollAnimationWrapper";
-import StarryBackground from "./StarryBackground";
+//import StarryBackground from "./StarryBackground";
 import { Download, Eye } from "lucide-react";
 import React from "react";
 import { FaLinkedinIn, FaGithub, FaEnvelope } from "react-icons/fa";

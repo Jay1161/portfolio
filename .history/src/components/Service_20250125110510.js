@@ -49,14 +49,13 @@ const Services = () => {
       <ScrollAnimationWrapper>
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 md:mb-8 text-gray-800 dark:text-white">
-            My Expert Services
+             My Expert Services
           </h2>
           <p className="mb-8 md:mb-12 text-center text-gray-600 dark:text-gray-300 text-base md:text-lg px-4">
-            Crafting innovative, high-quality software solutions that elevate
-            user experiences and drive results.
+            Crafting innovative, high-quality software solutions that elevate user experiences and drive results.
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 px-4 text-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-4 text-center">
             {services.map((service, index) => {
               const Icon = service.icon;
               return (

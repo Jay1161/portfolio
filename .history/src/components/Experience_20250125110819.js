@@ -41,7 +41,6 @@ const Experience = () => {
       logoUrl: iTech,
       website: "https://www.itechops.com",
     },
-
   ];
 
   const [expandedIds, setExpandedIds] = useState(new Set());
@@ -61,7 +60,7 @@ const Experience = () => {
   return (
     <section
       id="experience"
-      className="bg-gradient-to-b from-yellow-50 to-orange-50 dark:from-gray-900 dark:to-gray-800 py-20 scroll-mt-16 font-poppins"
+      className="bg-gradient-to-b from-yellow-50 to-orange-50 dark:from-gray-900 dark:to-gray-800 py-20 scroll-mt-16 font-rubik"
     >
       <ScrollAnimationWrapper>
         <div className="max-w-6xl mx-auto">
@@ -80,7 +79,7 @@ const Experience = () => {
             {experiences.map((exp, index) => {
               const Icon = exp.icon;
               const isEven = index % 2 === 0;
-              const isLast = index === experiences.length - 1;
+              //const isLast = index === experiences.length - 1;
 
               return (
                 <div

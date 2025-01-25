@@ -1,4 +1,5 @@
 import React from 'react';
+import portfolio from '../assets/images/projects/portfolio.png';
 import cicd from '../assets/images/projects/cicd.png';
 import healthCare from '../assets/images/projects/health-care.png';
 import cart from '../assets/images/projects/cart.png';
@@ -77,7 +78,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="bg-gradient-to-b from-yellow-50 to-orange-50 dark:from-gray-900 dark:to-gray-800 py-20 px-4 scroll-mt-16 font-rubik"
+      className="bg-gradient-to-b from-yellow-50 to-orange-50 dark:from-gray-900 dark:to-gray-800 py-20 px-4 scroll-mt-16 font-poppins"
     >
       <ScrollAnimationWrapper>
         <div className="max-w-6xl mx-auto">

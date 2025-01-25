@@ -1,6 +1,6 @@
 import amnex from "../assets/company/amnex.jpeg";
 import navpad from "../assets/company/navpad.jpg";
-import iTech from "../assets/company/iTechOpslogo.jpg";
+import iTech from "../assets/company/iTechOpslogo.svg";
 import ScrollAnimationWrapper from "./ScrollAnimationWrapper";
 import { Code2, Smartphone, MapPin, Cloud } from "lucide-react";
 import React, { useState } from "react";
@@ -32,16 +32,26 @@ const Experience = () => {
     },
     {
       title: "DevOps Intern",
-      company: "iTechOps Cloud",
+      company: "iTech Ops Cloud",
       location: "Ahmedabad, Gujarat",
       date: "January 2025 - Present",
       description:
-        "Collaborated with a team of developers to deploy and maintain cloud infrastructure, ensuring optimal performance.",
+        "Devops",
       icon: Cloud,
       logoUrl: iTech,
       website: "https://www.itechops.com",
     },
-
+    // {
+    //   title: "Mobile App Developer Intern",
+    //   company: "Ekaantik Software Solutions",
+    //   location: "Ahmedabad, Gujarat",
+    //   date: "January 2025 - Present",
+    //   description:
+    //     "Developed a high-performance mobile app using Flutter, Firebase, and Material UI, elevating user experience and refining app efficiency with modern development practices.",
+    //   icon: Smartphone,
+    //   logoUrl: ekaantik,
+    //   website: "https://ekaantik.com",
+    // },
   ];
 
   const [expandedIds, setExpandedIds] = useState(new Set());

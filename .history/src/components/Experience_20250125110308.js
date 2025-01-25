@@ -41,7 +41,6 @@ const Experience = () => {
       logoUrl: iTech,
       website: "https://www.itechops.com",
     },
-
   ];
 
   const [expandedIds, setExpandedIds] = useState(new Set());

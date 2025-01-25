@@ -1,4 +1,6 @@
 import ScrollAnimationWrapper from "./ScrollAnimationWrapper";
+//import photo from "../assets/images/personal/image-1.png";
+//import SolarSystem from "./SolarSystem";
 import StarryBackground from "./StarryBackground";
 import { Download, Eye } from "lucide-react";
 import React from "react";
@@ -45,12 +47,13 @@ function Home() {
     <section
       id="home"
       className="relative flex justify-center items-center min-h-screen pt-20 bg-gradient-to-b from-yellow-50 to-orange-50 dark:from-gray-900 dark:to-gray-800 font-poppins transition-colors duration-300"
+      //className="relative flex justify-center items-center min-h-screen pt-20 bg-white dark:bg-slate-900 text-black dark:text-white font-poppins transition-colors duration-300"
     >
       <ScrollAnimationWrapper>
-        {/* Stars background */}
+        {/* Stars background
         <div className="dark:block hidden">
           <StarryBackground />
-        </div>
+        </div> */}
 
         {/* Solar System
         <div className="absolute top-0 left-1/2 transform -translate-x-1/2 dark:block hidden">

@@ -56,7 +56,7 @@ const Services = () => {
             user experiences and drive results.
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 px-4 text-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 px-4 text-center">
             {services.map((service, index) => {
               const Icon = service.icon;
               return (
