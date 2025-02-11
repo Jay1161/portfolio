@@ -16,7 +16,7 @@ const Services = () => {
       description:
         "Deploying scalable and secure cloud infrastructure for seamless application hosting and management.",
       icon: Cloud,
-      skills: ["AWS", "Azure", "Google Cloud"],
+      skills: ["AWS", "Google Cloud", "Azure"],
     },
     {
       title: "Mobile Development",

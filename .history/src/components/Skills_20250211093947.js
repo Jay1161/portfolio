@@ -43,7 +43,7 @@ const SkillCard = ({ icon, name }) => {
 const Skills = () => {
   const skills = [
     { icon: awsIcon, name: "AWS" },
-    { icon: azureIcon, name: "Azure" },
+    { icon: azureIcon, name: "Azuure" },
     { icon: dockerIcon, name: "Docker" },
     { icon: kubernetesIcon, name: "Kubernetes" },
     { icon: jenkinsIcon, name: "Jenkins" },
@@ -75,6 +75,24 @@ const Skills = () => {
             development process
           </p>
 
+          {/* Mobile Layout
+          <div className="flex flex-col gap-4 lg:hidden">
+            {skills.map((skill, index) => (
+              <motion.div
+                key={index}
+                className="flex justify-center"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{
+                  type: "spring",
+                  duration: 0.6,
+                  delay: index * 0.1,
+                }}
+              >
+                <SkillCard icon={skill.icon} name={skill.name} />
+              </motion.div>
+            ))}
+          </div> */}
           {/* Mobile Layout */}
           <div className="grid grid-cols-2 gap-4 lg:hidden">
             {skills.map((skill, index) => (

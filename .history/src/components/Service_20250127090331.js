@@ -9,14 +9,14 @@ const Services = () => {
       description:
         "Implementing CI/CD pipelines and automating deployment processes for efficient software delivery.",
       icon: Infinity,
-      skills: ["Docker", "Jenkins", "Kubernetes", "Terraform", "Git"],
+      skills: ["Docker", "Jenkins", "Kubernetes", "Git"],
     },
     {
       title: "Cloud Solutions",
       description:
         "Deploying scalable and secure cloud infrastructure for seamless application hosting and management.",
       icon: Cloud,
-      skills: ["AWS", "Azure", "Google Cloud"],
+      skills: ["AWS", "Google Cloud"],
     },
     {
       title: "Mobile Development",

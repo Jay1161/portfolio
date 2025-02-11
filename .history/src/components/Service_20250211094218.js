@@ -9,14 +9,14 @@ const Services = () => {
       description:
         "Implementing CI/CD pipelines and automating deployment processes for efficient software delivery.",
       icon: Infinity,
-      skills: ["Docker", "Jenkins", "Kubernetes", "Terraform", "Git"],
+      skills: ["Docker", "Jenkins", "Kubernetes", "Git"],
     },
     {
       title: "Cloud Solutions",
       description:
         "Deploying scalable and secure cloud infrastructure for seamless application hosting and management.",
       icon: Cloud,
-      skills: ["AWS", "Azure", "Google Cloud"],
+      skills: ["AWS", "Google Cloud", "Azure"],
     },
     {
       title: "Mobile Development",
@@ -26,18 +26,18 @@ const Services = () => {
       skills: ["Flutter", "Android"],
     },
     {
-      title: "Web Development",
-      description:
-        "Building responsive and dynamic web applications using modern frameworks and technologies.",
-      icon: Code2,
-      skills: ["React.js", "Node.js", "Express.js", "Tailwind CSS"],
-    },
-    {
       title: "Database Management",
       description:
         "Designing and optimizing database structures for efficient data storage and retrieval.",
       icon: Database,
       skills: ["MySQL", "Firebase", "MongoDB"],
+    },
+    {
+      title: "Web Development",
+      description:
+        "Building responsive and dynamic web applications using modern frameworks and technologies.",
+      icon: Code2,
+      skills: ["React.js", "Node.js", "Express.js", "Tailwind CSS"],
     },
   ];
 
