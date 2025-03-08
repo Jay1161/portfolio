@@ -77,7 +77,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="bg-gradient-to-b from-yellow-50 to-orange-50 dark:from-gray-900 dark:to-gray-800 py-20 px-4 scroll-mt-16 font-rubik"
+      className="bg-gradient-to-b from-yellow-50 to-orange-50 dark:from-gray-900 dark:to-gray-800 py-20 px-4 scroll-mt-16 font-poppins"
     >
       <ScrollAnimationWrapper>
         <div className="max-w-6xl mx-auto">
