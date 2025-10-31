@@ -2,6 +2,7 @@ import React from 'react';
 import cicd from '../assets/images/projects/cicd.png';
 import healthCare from '../assets/images/projects/health-care.png';
 import cart from '../assets/images/projects/cart.png';
+import uttam from '../assets/images/projects/uttam.png';
 import ScrollAnimationWrapper from "./ScrollAnimationWrapper";
 
 const ProjectCard = ({ title, description, tech, imageUrl, projectUrl }) => {
@@ -47,6 +48,14 @@ const ProjectCard = ({ title, description, tech, imageUrl, projectUrl }) => {
 
 const Projects = () => {
   const projects = [
+    {
+      title: "Interior Designer",
+      description:
+        "A modern, responsive website for an interior design studio built with Next.js and Tailwind CSS. It features a sleek design, smooth navigation, and showcases the studio's portfolio effectively.",
+      tech: ["Next.js", "Tailwind CSS"],
+      imageUrl: uttam,
+      projectUrl: "https://www.uttaminteriorsstudio.com",
+    },
     {
       title: "CareWise",
       description:

@@ -7,14 +7,15 @@ import { ReactTyped } from "react-typed";
 
 function Home() {
   const typedStrings = [
+    "DevOps Engineer",
     "Software Developer",
-    "DevOps Enthusiast",
     "Mobile App Developer",
   ];
 
   //const resumePath = process.env.PUBLIC_URL + "/documents/resume.pdf";
 
-  const resumePath =  "https://drive.google.com/file/d/1Wg53elmH95uLCRuJ3m0dQ6nfSKikOhOi/view?usp=sharing";
+  const resumePath =
+    "https://drive.google.com/file/d/1ceMNk-klG7B6wqvtqmOzWluP9KCOoPY5/view?usp=sharing";
 
   const handleView = () => {
     // Open PDF in new tab
@@ -123,7 +124,7 @@ function Home() {
                 onClick={handleView}
                 className="bg-orange-500 dark:bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-orange-600 dark:hover:bg-blue-600 transition-colors inline-flex items-center gap-2 group"
               >
-                <span>View Resume</span>
+                <span>View CV</span>
                 <Eye className="w-5 h-5 transition-transform group-hover:scale-110" />
               </button>
 

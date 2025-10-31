@@ -15,6 +15,7 @@ import mysqlIcon from "../assets/icons/mysql.png";
 import reactIcon from "../assets/icons/react.png";
 import vscodeIcon from "../assets/icons/vscode.png";
 import azureIcon from "../assets/icons/azure.png";
+import gcpIcon from "../assets/icons/gcp.png";
 import ScrollAnimationWrapper from "./ScrollAnimationWrapper";
 import { motion } from "framer-motion";
 import React from "react";
@@ -44,6 +45,7 @@ const Skills = () => {
   const skills = [
     { icon: awsIcon, name: "AWS" },
     { icon: azureIcon, name: "Azure" },
+    { icon: gcpIcon, name: "GCP" },
     { icon: dockerIcon, name: "Docker" },
     { icon: kubernetesIcon, name: "Kubernetes" },
     { icon: jenkinsIcon, name: "Jenkins" },

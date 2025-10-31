@@ -1,6 +1,7 @@
 import amnex from "../assets/company/amnex.jpeg";
 import navpad from "../assets/company/navpad.jpg";
 import iTech from "../assets/company/iTechOpslogo.jpg";
+import encecloud from "../assets/company/encecloud.jpg";
 import ScrollAnimationWrapper from "./ScrollAnimationWrapper";
 import { Code2, Smartphone, MapPin, Cloud } from "lucide-react";
 import React, { useState } from "react";
@@ -8,11 +9,22 @@ import React, { useState } from "react";
 
 const Experience = () => {
   const experiences = [
+    // {
+    //   title: "Founder & CEO",
+    //   company: "Encecloud",
+    //   location: "Ahmedabad, Gujarat",
+    //   date: "August 2025 - Present",
+    //   description:
+    //     "Spearheading the development of Encecloud, a cutting-edge cloud solutions startup focused on delivering innovative and scalable cloud services to businesses worldwide.",
+    //   icon: Cloud,
+    //   logoUrl: encecloud,
+    //   website: "https://www.encecloud.com",
+    // },
     {
       title: "DevOps Intern",
       company: "iTechOps Cloud",
       location: "Ahmedabad, Gujarat",
-      date: "January 2025 - Present",
+      date: "January 2025 - July 2025",
       description:
         "Collaborated with a team of developers to deploy and maintain cloud infrastructure, ensuring optimal performance.",
       icon: Cloud,
@@ -41,7 +53,6 @@ const Experience = () => {
       logoUrl: navpad,
       website: "http://new.navpadinfotech.com",
     },
-
   ];
 
   const [expandedIds, setExpandedIds] = useState(new Set());
