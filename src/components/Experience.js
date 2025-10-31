@@ -1,7 +1,7 @@
 import amnex from "../assets/company/amnex.jpeg";
 import navpad from "../assets/company/navpad.jpg";
 import iTech from "../assets/company/iTechOpslogo.jpg";
-import encecloud from "../assets/company/encecloud.jpg";
+//import encecloud from "../assets/company/encecloud.jpg";
 import ScrollAnimationWrapper from "./ScrollAnimationWrapper";
 import { Code2, Smartphone, MapPin, Cloud } from "lucide-react";
 import React, { useState } from "react";
