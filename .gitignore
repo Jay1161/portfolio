@@ -4,9 +4,9 @@ pnpm-lock.yaml
 package-lock.json
 yarn.lock
 
-# Next.js build outputs
-.next/
-out/
+# React.js build outputs
+/build
+/dist
 
 # Debug & logs
 npm-debug.log*
@@ -35,10 +35,8 @@ pnpm-debug.log*
 
 # Coverage & testing
 coverage/
-.jest/
+jest-cache/
+jest-results.json
 
 # Typescript cache
 *.tsbuildinfo
-
-# Build artifacts
-dist/
