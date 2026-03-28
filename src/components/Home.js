@@ -13,7 +13,7 @@ function Home() {
   //const resumePath = process.env.PUBLIC_URL + "/documents/resume.pdf";
 
   const resumePath =
-    "https://drive.google.com/file/d/1ceMNk-klG7B6wqvtqmOzWluP9KCOoPY5/view?usp=sharing";
+    "https://drive.google.com/file/d/15UKwqeLl86dm8FSRwHd4UKBAEzWeOki_/view?usp=share_link";
 
   const handleView = () => {
     // Open PDF in new tab
