@@ -2,10 +2,10 @@ import amnex from "../assets/company/amnex.jpeg";
 import navpad from "../assets/company/navpad.jpg";
 import iTech from "../assets/company/iTechOpslogo.jpg";
 //import encecloud from "../assets/company/encecloud.jpg";
+import ecosmob from "../assets/company/ecosmob.jpg";
 import ScrollAnimationWrapper from "./ScrollAnimationWrapper";
-import { Code2, Smartphone, MapPin, Cloud } from "lucide-react";
+import { Code2, Smartphone, MapPin, Cloud, Briefcase } from "lucide-react";
 import React, { useState } from "react";
-
 
 const Experience = () => {
   const experiences = [
@@ -20,6 +20,29 @@ const Experience = () => {
     //   logoUrl: encecloud,
     //   website: "https://www.encecloud.com",
     // },
+    {
+      title: "DevOps Trainee",
+      company: "Ecosmob Technologies",
+      location: "Ahmedabad, Gujarat",
+      date: "February 2026 - Present",
+      description:
+        "Worked on containerization using Docker and orchestration with Kubernetes. Built and managed CI/CD pipelines, provisioned infrastructure using Terraform on AWS, and monitored systems using Prometheus and Grafana.",
+      icon: Cloud,
+      logoUrl: ecosmob,
+      objectFit: "contain",
+      website: "https://www.ecosmob.com",
+    },
+    {
+      title: "Freelancer",
+      company: "Self-Employed",
+      location: "Remote",
+      date: "August 2025 - February 2026",
+      description:
+        "Delivered web and mobile applications for clients, handling architecture, development, deployment, and maintenance. Focused on scalable solutions and performance optimization.",
+      icon: Briefcase,
+      logoUrl: "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+      website: null,
+    },
     {
       title: "DevOps Intern",
       company: "iTechOps Cloud",
@@ -121,12 +144,16 @@ const Experience = () => {
                           isEven
                             ? "md:-right-3 -left-3 md:left-auto"
                             : "-left-3"
-                        } -top-3 w-10 md:w-12 h-10 md:h-12 rounded-full bg-white dark:bg-gray-800 border-2 border-orange-500 dark:border-blue-400 shadow-lg flex items-center justify-center hover:scale-110 transition-all duration-300`}
+                        } -top-3 w-10 md:w-12 h-10 md:h-12 rounded-full bg-white dark:bg-gray-800 border-2 border-orange-500 dark:border-blue-400 shadow-lg overflow-hidden flex items-center justify-center hover:scale-110 transition-all duration-300`}
                       >
                         <img
                           src={exp.logoUrl}
                           alt={`${exp.company} logo`}
-                          className="w-6 md:w-10 h-6 md:h-10 rounded-full object-cover"
+                          className={`rounded-full ${
+                            exp.objectFit === "contain"
+                              ? "w-full h-full object-contain p-1"
+                              : "w-full h-full object-cover"
+                          }`}
                         />
                       </a>
 

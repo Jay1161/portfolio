@@ -8,8 +8,6 @@ import { ReactTyped } from "react-typed";
 function Home() {
   const typedStrings = [
     "DevOps Engineer",
-    "Software Developer",
-    "Mobile App Developer",
   ];
 
   //const resumePath = process.env.PUBLIC_URL + "/documents/resume.pdf";
